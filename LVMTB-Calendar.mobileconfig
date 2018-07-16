@@ -26,7 +26,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Untitled</string>
+	<string>LVMTB-Calendar subscription</string>
 	<key>PayloadIdentifier</key>
 	<string>Nathans-MacBook-Pro.BAE96C18-7531-42E9-96A3-E87455DFBF9E</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -34,7 +34,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F397BB61-0570-4A73-BA94-B6DD00ECE3BD</string>
+	<string>C207C532-0852-486D-9D9A-B2FF3E315975</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
