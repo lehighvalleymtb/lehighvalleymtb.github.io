@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Thank you for subscribing to the lehigh valley mountain bike team's practice's</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures settings for calendar subscriptions</string>
+			<key>PayloadDisplayName</key>
+			<string>Subscribed Calendars</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.subscribedcalendar.account.52DEEF7F-1683-4325-9BA4-840116154841</string>
+			<key>PayloadType</key>
+			<string>com.apple.subscribedcalendar.account</string>
+			<key>PayloadUUID</key>
+			<string>52DEEF7F-1683-4325-9BA4-840116154841</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SubCalAccountDescription</key>
+			<string>LVMTB-Calendar</string>
+			<key>SubCalAccountHostName</key>
+			<string>https://calendar.google.com/calendar/ical/lehighvalleycompositemtb%40gmail.com/public/basic.ics</string>
+			<key>SubCalAccountUseSSL</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile contains information about a calendar that I have given you about all of the mtb team's practices</string>
+	<key>PayloadDisplayName</key>
+	<string>LVMTB-Calendar subscription</string>
+	<key>PayloadIdentifier</key>
+	<string>Nathans-MacBook-Pro.BAE96C18-7531-42E9-96A3-E87455DFBF9E</string>
+	<key>PayloadOrganization</key>
+	<string>Nathan Moore</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>FFA50729-8874-4369-A659-20BE95837189</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
