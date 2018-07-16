@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures settings for calendar subscriptions</string>
+			<key>PayloadDisplayName</key>
+			<string>Subscribed Calendars</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.subscribedcalendar.account.4C8E8EA1-50D3-47E9-977A-F48796CC0AB0</string>
+			<key>PayloadType</key>
+			<string>com.apple.subscribedcalendar.account</string>
+			<key>PayloadUUID</key>
+			<string>4C8E8EA1-50D3-47E9-977A-F48796CC0AB0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SubCalAccountDescription</key>
+			<string>My Subscribed Calendar</string>
+			<key>SubCalAccountHostName</key>
+			<string>https://calendar.google.com/calendar/ical/lehighvalleycompositemtb%40gmail.com/public/basic.ics</string>
+			<key>SubCalAccountUseSSL</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Untitled</string>
+	<key>PayloadIdentifier</key>
+	<string>Nathans-MacBook-Pro.BAE96C18-7531-42E9-96A3-E87455DFBF9E</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F397BB61-0570-4A73-BA94-B6DD00ECE3BD</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
