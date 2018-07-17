@@ -31,9 +31,9 @@ html {
     }
 }
 
-    .divclass {
+    .parallaxText {
         height: 1000px;
-        background-color:black ;
+        background-color:grey ;
         font-size: 36px
     
 }
