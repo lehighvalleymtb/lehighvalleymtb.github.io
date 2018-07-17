@@ -14,7 +14,7 @@ html {
 }
 
 .parallax {
-    background-image: url("img/Bike-Team.jpg");
+    background-image: url=("/img/Bike-Team.jpg");
     
 
     height: 100%;
