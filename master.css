@@ -14,15 +14,26 @@ html {
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("");
+    background-image: url("/img/Bike-Team.jpg");
     
-    /* Set a specific height */
-    height: 500px;
+
+    height: 100%;
     
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+    .divclass {
+        height: 1000px;
+        background-color:black ;
+        font-size: 36px
+    
 }
