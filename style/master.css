@@ -1,0 +1,74 @@
+h1 {
+    color: white ;
+    margin: 20px 20px 20px 20px;
+}
+
+p {
+    color: white;
+    margin: 20px 20px 20px 20px;
+}
+
+
+html {
+    background-color: black;
+}
+
+.parallax {
+    background-image: url('/img/Bike-Team.jpg');
+
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+    .parallaxText {
+        height: 1000px;
+        background-color:black ;
+        font-size: 36px
+
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.pic {
+  margin-left: 20px;
+  max-width: 90%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.button {
+margin: 50px 50px 50px 1000px;
+background-color: Green; /* Green */
+border: none;
+color: Green;
+text-align: center;
+padding: 25px;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+}
+
+.button1 {
+margin: 50px 50px 50px 50px;
+background-color: Blue; /* Green */
+border: none;
+color: Blue;
+text-align: center;
+padding: 25px;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+}
