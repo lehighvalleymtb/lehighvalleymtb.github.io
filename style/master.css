@@ -115,3 +115,8 @@ postition-0 {
     top: 0px;
     z-index: 0;
 }
+
+div.fontpixel{
+    width:400px;
+    height:300px;
+}
