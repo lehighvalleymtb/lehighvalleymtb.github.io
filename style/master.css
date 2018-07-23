@@ -120,3 +120,14 @@ div.fontpixel{
     width:400px;
     height:300px;
 }
+
+.frame {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    box-sizing: border-box;
+}
