@@ -139,7 +139,7 @@ div.fontpixel{
     overflow: hidden;
 }
 
-.calendar-container iframe {
+.calendar-container {
     position: absolute;
     top:0;
     left: 0;
