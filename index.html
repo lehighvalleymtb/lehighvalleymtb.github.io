@@ -32,6 +32,19 @@
     <br>
         <div class="fontpixel">
          <div  class="w3-container w3-black">
+             <script>
+                 setInterval(function() {
+                             
+                             var h = window.innerHeight;
+                             var w = window.innerWidth;
+                             
+                             var iframe = document.getElementsByTagName("iframe")[0];
+                             
+                             iframe.style.height = h + "px";
+                             iframe.style.width = w + "px";
+                             
+                             }, 100);
+             </script>
           <h2>
               Calendar
           </h2>
