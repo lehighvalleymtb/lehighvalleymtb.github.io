@@ -1,10 +1,44 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+        
+         <meta charset = "UTF-8">
+        <title>
+            LVMTB Home
+        </title>
+<!--------------edit the name of the file under href to change the sheet------------->
+
+<!---        <link rel="stylesheet" href="style/bootstrap.css"   --->
+             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+             <link rel="stylesheet" href="style/master.css">
+<!---        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> --->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
 <body>
+	 <div class="sticky">
+        <div class="w3-bar w3-grey">
+            <form method="get" action="about/index.html">
+              <button type="submit" class="w3-button w3-green postition-0" >About
+              
+              </button>
+            </form>
+            <div class="absolute1">
+				<form method="get" action="/calendar-download">
+            	    <button type="submit" class="w3-button w3-green postition-1" >Get Calendar</button>
+           	 	</form>
+			</div>
+        </div>
+      </div>
+	
+	<div class="calendar-container">
+         <div  class="w3-container w3-black">
+             
+          <h2>
+              Calendar
+          </h2>
+          <iframe src="https://calendar.google.com/calendar/embed?src=lehighvalleycompositemtb%40gmail.com&ctz=America%2FNew_York" style="border: 0"  width="800" height="600" class="calendar-container-iframe" scrolling="no"></iframe>
+         </div>
+        </div>
 </body>
 </html>

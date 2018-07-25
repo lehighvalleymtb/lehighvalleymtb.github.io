@@ -1,82 +1,73 @@
-<!doctype html>
-<html>
-    <head>
-        
-         <meta charset = "UTF-8">
+<html><head>
+    
+    <meta charset="UTF-8">
         <title>
             LVMTB Home
         </title>
-<!--------------edit the name of the file under href to change the sheet------------->
-
-<!---        <link rel="stylesheet" href="style/bootstrap.css"   --->
-             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-             <link rel="stylesheet" href="style/master.css">
-<!---        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> --->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <!--------------edit the name of the file under href to change the sheet------------->
+        
+        <!---        <link rel="stylesheet" href="style/bootstrap.css"   --->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="style/master.css">
+                <!---        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> --->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    </head>
 <!-------------------------------------->
-    <body>
-		
-<!---				sticky-class				--->
-		
-      <div class="sticky">
+<body>
+    
+    <!---                sticky-class                --->
+    
+    <div class="sticky">
         <div class="w3-bar w3-grey">
             <form method="get" action="about/index.html">
-              <button type="submit" class="w3-button w3-green postition-0" >About
-              
-              </button>
+                <button type="submit" class="w3-button w3-green postition-0">About
+                    
+                </button>
             </form>
             <div class="absolute1">
-				<form method="get" action="/calendar-download">
-            	    <button type="submit" class="w3-button w3-green postition-1" >Get Calendar</button>
-           	 	</form>
-			</div>
+                <form method="get" action="/calendar-download">
+                    <button type="submit" class="w3-button w3-green postition-1">Get Calendar</button>
+                </form>
+            </div>
             <div class="absolute2">
-				<button onclick="myFunction()" class="iframe">Try it</button>
-				<div id="myDIV">
-				<iframe src="https://www.facebook.com/lehighvalleycompositemtb/" width="600" height="800" class="iframe">
-					
-				</iframe>
-				</div>
+                <button onclick="myFunction()" class="iframe">Calendar</button>
+                <div id="myDIV" style="visibility: collapse;">
+                    <iframe src="https://www.facebook.com/lehighvalleycompositemtb/" class="iframe" width="600" height="800">
+                        
+                    </iframe>
+                </div>
                 <script>
-				function myFunction() {
-    				var x = document.getElementById('myDIV');
-    				if (x.style.visibility === 'collapse') {
-        				x.style.visibility = 'visible';
-    				} else {
-						x.style.visibility = 'collapse';
-					}
-					}
-					</script>
-			</div>
-        </div>
-      </div>
-    <br>
-    <br>
-        <div  class="w3-container w3-black">
-          <h2>
-              Pictures
-          </h2
-           <h1> This is the lehigh valley mountain biking team's homepage </h1>
-            <div class="w3-container w3-black">
-                <img src="/img/Bike-Team.jpg" class="pic w3-round">
-            </div>
-            <div>
-               <p>
-               all of the team members are incuded in the about page
-               </p>
+                    function myFunction() {
+                        var x = document.getElementById('myDIV');
+                        if (x.style.visibility === 'collapse') {
+                            x.style.visibility = 'visible';
+                        } else {
+                            x.style.visibility = 'collapse';
+                        }
+                    }
+                </script>
             </div>
         </div>
-    </body>
-</html>
-
-
-<!---        <div class="parallax"></div>
- 
- <div class="parallaxText">
- this is some text that i added
- </div>
- 
- <div class="parallax"></div>
- --->
-
+    </div>
+    <br>
+    <br>
+    <div class="w3-container w3-black">
+        <h2>
+            Pictures
+        </h2> This is the lehigh valley mountain biking team's homepage
+        <div class="w3-container w3-black">
+            <img src="/img/Bike-Team.jpg" class="pic w3-round">
+                </div>
+        <div>
+            <p>
+            all of the team members are incuded in the about page
+            </p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+</body></html>
