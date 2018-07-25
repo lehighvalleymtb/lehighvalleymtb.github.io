@@ -29,9 +29,22 @@
            	 	</form>
 			</div>
             <div class="absolute2">
-				<form method="get" action="/calendar-download">
-            	    <button type="submit" class="w3-button w3-green postition-1" >Get Calendar</button>
-           	 	</form>
+				<button onclick="myFunction()" class="iframe">Try it</button>
+				<div id="myDIV">
+				<iframe src="https://www.facebook.com/lehighvalleycompositemtb/" width="600" height="800" class="iframe">
+					
+				</iframe>
+				</div>
+                <script>
+				function myFunction() {
+    				var x = document.getElementById('myDIV');
+    				if (x.style.visibility === 'collapse') {
+        				x.style.visibility = 'visible';
+    				} else {
+						x.style.visibility = 'collapse';
+					}
+					}
+					</script>
 			</div>
         </div>
       </div>
