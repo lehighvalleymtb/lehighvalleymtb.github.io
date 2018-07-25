@@ -147,3 +147,9 @@ div.fontpixel{
     height: 100%;
 }
 
+div.absolute1 {
+    position: absolute;
+    top: 0px;
+    left: 100;
+}
+
